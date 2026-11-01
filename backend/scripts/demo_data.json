@@ -1,0 +1,1144 @@
+{
+ "employees": [
+  {
+   "id": "e001",
+   "name": "Ayşe Güneş",
+   "title": "Kıdemli Product Owner",
+   "role": "Product Owner",
+   "department": "Ürün",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 3,
+    "TypeScript": 3,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 5,
+    "İş Analizi": 4,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 9,
+   "pastSuccess": 67,
+   "availability": 100
+  },
+  {
+   "id": "e002",
+   "name": "Mehmet Şahin",
+   "title": "Kıdemli Product Owner",
+   "role": "Product Owner",
+   "department": "Ürün",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 3,
+    "React": 2,
+    "TypeScript": 1,
+    "SQL": 2,
+    "DevOps": 3,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 3,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 8,
+   "pastSuccess": 77,
+   "availability": 100
+  },
+  {
+   "id": "e003",
+   "name": "Zeynep Koç",
+   "title": "Product Owner",
+   "role": "Product Owner",
+   "department": "Ürün",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 3,
+    "React": 2,
+    "TypeScript": 3,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 1,
+    "Scrum": 4,
+    "İş Analizi": 4,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 3,
+   "pastSuccess": 67,
+   "availability": 60
+  },
+  {
+   "id": "e004",
+   "name": "Can Aksoy",
+   "title": "Kıdemli Product Owner",
+   "role": "Product Owner",
+   "department": "Ürün",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 2,
+    "React": 1,
+    "TypeScript": 1,
+    "SQL": 1,
+    "DevOps": 1,
+    "Test": 2,
+    "UI/UX": 3,
+    "Scrum": 5,
+    "İş Analizi": 5,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 13,
+   "pastSuccess": 94,
+   "availability": 100
+  },
+  {
+   "id": "e005",
+   "name": "Elif Şahin",
+   "title": "Yardımcı Scrum Master",
+   "role": "Scrum Master",
+   "department": "Çevik Dönüşüm",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 1,
+    "React": 2,
+    "TypeScript": 2,
+    "SQL": 2,
+    "DevOps": 3,
+    "Test": 1,
+    "UI/UX": 3,
+    "Scrum": 5,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 2,
+   "pastSuccess": 89,
+   "availability": 100
+  },
+  {
+   "id": "e006",
+   "name": "Burak Erdoğan",
+   "title": "Kıdemli Scrum Master",
+   "role": "Scrum Master",
+   "department": "Çevik Dönüşüm",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 3,
+    "TypeScript": 2,
+    "SQL": 2,
+    "DevOps": 2,
+    "Test": 2,
+    "UI/UX": 1,
+    "Scrum": 5,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 14,
+   "pastSuccess": 96,
+   "availability": 40
+  },
+  {
+   "id": "e007",
+   "name": "Selin Demir",
+   "title": "Scrum Master",
+   "role": "Scrum Master",
+   "department": "Çevik Dönüşüm",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 2,
+    "React": 1,
+    "TypeScript": 1,
+    "SQL": 3,
+    "DevOps": 1,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 3,
+    "İş Analizi": 4,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 7,
+   "pastSuccess": 62,
+   "availability": 60
+  },
+  {
+   "id": "e008",
+   "name": "Emre Öztürk",
+   "title": "Kıdemli Scrum Master",
+   "role": "Scrum Master",
+   "department": "Çevik Dönüşüm",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 1,
+    "React": 2,
+    "TypeScript": 1,
+    "SQL": 2,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 5,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 10,
+   "pastSuccess": 91,
+   "availability": 100
+  },
+  {
+   "id": "e009",
+   "name": "Deniz Özdemir",
+   "title": "Yardımcı Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 5,
+    "React": 2,
+    "TypeScript": 3,
+    "SQL": 5,
+    "DevOps": 1,
+    "Test": 2,
+    "UI/UX": 2,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 1,
+   "pastSuccess": 66,
+   "availability": 100
+  },
+  {
+   "id": "e010",
+   "name": "Merve Arslan",
+   "title": "Yardımcı Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 3,
+    "React": 3,
+    "TypeScript": 2,
+    "SQL": 5,
+    "DevOps": 1,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 1,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 1,
+   "pastSuccess": 71,
+   "availability": 100
+  },
+  {
+   "id": "e011",
+   "name": "Kerem Çelik",
+   "title": "Kıdemli Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 3,
+    "React": 2,
+    "TypeScript": 2,
+    "SQL": 4,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 1,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 13,
+   "pastSuccess": 84,
+   "availability": 100
+  },
+  {
+   "id": "e012",
+   "name": "Ece Şahin",
+   "title": "Yardımcı Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 3,
+    "React": 1,
+    "TypeScript": 2,
+    "SQL": 3,
+    "DevOps": 2,
+    "Test": 2,
+    "UI/UX": 3,
+    "Scrum": 3,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 2,
+   "pastSuccess": 77,
+   "availability": 40
+  },
+  {
+   "id": "e013",
+   "name": "Oğuz Erdoğan",
+   "title": "Kıdemli Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 4,
+    "React": 1,
+    "TypeScript": 2,
+    "SQL": 5,
+    "DevOps": 1,
+    "Test": 2,
+    "UI/UX": 2,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 13,
+   "pastSuccess": 57,
+   "availability": 100
+  },
+  {
+   "id": "e014",
+   "name": "Büşra Arslan",
+   "title": "Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 4,
+    "React": 3,
+    "TypeScript": 3,
+    "SQL": 5,
+    "DevOps": 3,
+    "Test": 2,
+    "UI/UX": 3,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 3,
+   "pastSuccess": 83,
+   "availability": 100
+  },
+  {
+   "id": "e015",
+   "name": "Kaan Güneş",
+   "title": "Kıdemli Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 4,
+    "React": 1,
+    "TypeScript": 3,
+    "SQL": 3,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 1,
+    "Scrum": 2,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 14,
+   "pastSuccess": 84,
+   "availability": 100
+  },
+  {
+   "id": "e016",
+   "name": "İrem Kılıç",
+   "title": "Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 3,
+    "React": 1,
+    "TypeScript": 1,
+    "SQL": 4,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 3,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 4,
+   "pastSuccess": 74,
+   "availability": 80
+  },
+  {
+   "id": "e017",
+   "name": "Mert Yılmaz",
+   "title": "Backend Geliştirici",
+   "role": "Backend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 3,
+    "React": 1,
+    "TypeScript": 1,
+    "SQL": 4,
+    "DevOps": 1,
+    "Test": 2,
+    "UI/UX": 2,
+    "Scrum": 2,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 6,
+   "pastSuccess": 94,
+   "availability": 100
+  },
+  {
+   "id": "e018",
+   "name": "Gizem Tekin",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 2,
+    "React": 4,
+    "TypeScript": 3,
+    "SQL": 3,
+    "DevOps": 1,
+    "Test": 2,
+    "UI/UX": 1,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 13,
+   "pastSuccess": 82,
+   "availability": 60
+  },
+  {
+   "id": "e019",
+   "name": "Ali Tekin",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 3,
+    "React": 4,
+    "TypeScript": 3,
+    "SQL": 1,
+    "DevOps": 1,
+    "Test": 1,
+    "UI/UX": 1,
+    "Scrum": 3,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 8,
+   "pastSuccess": 71,
+   "availability": 100
+  },
+  {
+   "id": "e020",
+   "name": "Derya Aslan",
+   "title": "Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 3,
+    "React": 4,
+    "TypeScript": 3,
+    "SQL": 3,
+    "DevOps": 3,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 3,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 4,
+   "pastSuccess": 68,
+   "availability": 80
+  },
+  {
+   "id": "e021",
+   "name": "Barış Güneş",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 2,
+    "React": 5,
+    "TypeScript": 4,
+    "SQL": 2,
+    "DevOps": 3,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 1,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 11,
+   "pastSuccess": 91,
+   "availability": 100
+  },
+  {
+   "id": "e022",
+   "name": "Nazlı Doğan",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 2,
+    "React": 4,
+    "TypeScript": 4,
+    "SQL": 3,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 13,
+   "pastSuccess": 81,
+   "availability": 60
+  },
+  {
+   "id": "e023",
+   "name": "Onur Arslan",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 3,
+    "React": 3,
+    "TypeScript": 5,
+    "SQL": 3,
+    "DevOps": 2,
+    "Test": 2,
+    "UI/UX": 1,
+    "Scrum": 2,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 11,
+   "pastSuccess": 80,
+   "availability": 60
+  },
+  {
+   "id": "e024",
+   "name": "Sena Yıldız",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 1,
+    "React": 3,
+    "TypeScript": 3,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 3,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 8,
+   "pastSuccess": 66,
+   "availability": 40
+  },
+  {
+   "id": "e025",
+   "name": "Tolga Kılıç",
+   "title": "Kıdemli Frontend Geliştirici",
+   "role": "Frontend Geliştirici",
+   "department": "Yazılım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 3,
+    "React": 5,
+    "TypeScript": 4,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 9,
+   "pastSuccess": 79,
+   "availability": 100
+  },
+  {
+   "id": "e026",
+   "name": "Pelin Erdoğan",
+   "title": "Kıdemli QA Mühendisi",
+   "role": "QA Mühendisi",
+   "department": "Kalite",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 3,
+    "React": 3,
+    "TypeScript": 1,
+    "SQL": 3,
+    "DevOps": 1,
+    "Test": 4,
+    "UI/UX": 1,
+    "Scrum": 1,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 11,
+   "pastSuccess": 82,
+   "availability": 100
+  },
+  {
+   "id": "e027",
+   "name": "Umut Polat",
+   "title": "Kıdemli QA Mühendisi",
+   "role": "QA Mühendisi",
+   "department": "Kalite",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 3,
+    "React": 2,
+    "TypeScript": 1,
+    "SQL": 5,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 1,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 11,
+   "pastSuccess": 94,
+   "availability": 100
+  },
+  {
+   "id": "e028",
+   "name": "Cansu Aksoy",
+   "title": "QA Mühendisi",
+   "role": "QA Mühendisi",
+   "department": "Kalite",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 3,
+    "TypeScript": 1,
+    "SQL": 5,
+    "DevOps": 1,
+    "Test": 3,
+    "UI/UX": 2,
+    "Scrum": 2,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 3,
+   "pastSuccess": 86,
+   "availability": 100
+  },
+  {
+   "id": "e029",
+   "name": "Serkan Koç",
+   "title": "Kıdemli QA Mühendisi",
+   "role": "QA Mühendisi",
+   "department": "Kalite",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 1,
+    "TypeScript": 1,
+    "SQL": 3,
+    "DevOps": 3,
+    "Test": 5,
+    "UI/UX": 1,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 14,
+   "pastSuccess": 62,
+   "availability": 40
+  },
+  {
+   "id": "e030",
+   "name": "Damla Erdoğan",
+   "title": "Yardımcı QA Mühendisi",
+   "role": "QA Mühendisi",
+   "department": "Kalite",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 1,
+    "React": 3,
+    "TypeScript": 1,
+    "SQL": 4,
+    "DevOps": 2,
+    "Test": 4,
+    "UI/UX": 2,
+    "Scrum": 3,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 2,
+   "pastSuccess": 63,
+   "availability": 80
+  },
+  {
+   "id": "e031",
+   "name": "Hakan Yılmaz",
+   "title": "Kıdemli UI/UX Tasarımcı",
+   "role": "UI/UX Tasarımcı",
+   "department": "Tasarım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 4,
+    "TypeScript": 1,
+    "SQL": 2,
+    "DevOps": 1,
+    "Test": 3,
+    "UI/UX": 4,
+    "Scrum": 2,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 11,
+   "pastSuccess": 57,
+   "availability": 40
+  },
+  {
+   "id": "e032",
+   "name": "Melis Yılmaz",
+   "title": "Kıdemli UI/UX Tasarımcı",
+   "role": "UI/UX Tasarımcı",
+   "department": "Tasarım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 5,
+    "TypeScript": 1,
+    "SQL": 2,
+    "DevOps": 2,
+    "Test": 2,
+    "UI/UX": 4,
+    "Scrum": 2,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 11,
+   "pastSuccess": 55,
+   "availability": 60
+  },
+  {
+   "id": "e033",
+   "name": "Yiğit Arslan",
+   "title": "UI/UX Tasarımcı",
+   "role": "UI/UX Tasarımcı",
+   "department": "Tasarım",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 2,
+    "React": 5,
+    "TypeScript": 3,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 4,
+    "Scrum": 1,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 3,
+   "pastSuccess": 86,
+   "availability": 100
+  },
+  {
+   "id": "e034",
+   "name": "Ebru Aslan",
+   "title": "Kıdemli UI/UX Tasarımcı",
+   "role": "UI/UX Tasarımcı",
+   "department": "Tasarım",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 2,
+    "React": 5,
+    "TypeScript": 3,
+    "SQL": 2,
+    "DevOps": 1,
+    "Test": 3,
+    "UI/UX": 3,
+    "Scrum": 2,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 3
+   },
+   "experienceYears": 11,
+   "pastSuccess": 90,
+   "availability": 60
+  },
+  {
+   "id": "e035",
+   "name": "Furkan Güneş",
+   "title": "Kıdemli DevOps Mühendisi",
+   "role": "DevOps Mühendisi",
+   "department": "Altyapı",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 5,
+    "React": 3,
+    "TypeScript": 3,
+    "SQL": 3,
+    "DevOps": 5,
+    "Test": 1,
+    "UI/UX": 1,
+    "Scrum": 3,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 14,
+   "pastSuccess": 87,
+   "availability": 100
+  },
+  {
+   "id": "e036",
+   "name": "Aslı Koç",
+   "title": "Kıdemli DevOps Mühendisi",
+   "role": "DevOps Mühendisi",
+   "department": "Altyapı",
+   "commStyle": "Destekleyici",
+   "skills": {
+    "Python": 4,
+    "React": 3,
+    "TypeScript": 2,
+    "SQL": 1,
+    "DevOps": 3,
+    "Test": 2,
+    "UI/UX": 3,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 1
+   },
+   "experienceYears": 12,
+   "pastSuccess": 81,
+   "availability": 40
+  },
+  {
+   "id": "e037",
+   "name": "Okan Erdoğan",
+   "title": "DevOps Mühendisi",
+   "role": "DevOps Mühendisi",
+   "department": "Altyapı",
+   "commStyle": "Yönlendirici",
+   "skills": {
+    "Python": 5,
+    "React": 3,
+    "TypeScript": 1,
+    "SQL": 3,
+    "DevOps": 5,
+    "Test": 1,
+    "UI/UX": 2,
+    "Scrum": 3,
+    "İş Analizi": 2,
+    "Makine Öğrenmesi": 2
+   },
+   "experienceYears": 6,
+   "pastSuccess": 68,
+   "availability": 80
+  },
+  {
+   "id": "e038",
+   "name": "Tuğba Aslan",
+   "title": "Kıdemli Veri Bilimci",
+   "role": "Veri Bilimci",
+   "department": "Veri",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 5,
+    "React": 1,
+    "TypeScript": 2,
+    "SQL": 1,
+    "DevOps": 2,
+    "Test": 3,
+    "UI/UX": 2,
+    "Scrum": 2,
+    "İş Analizi": 3,
+    "Makine Öğrenmesi": 4
+   },
+   "experienceYears": 8,
+   "pastSuccess": 96,
+   "availability": 100
+  },
+  {
+   "id": "e039",
+   "name": "Arda Yılmaz",
+   "title": "Kıdemli Veri Bilimci",
+   "role": "Veri Bilimci",
+   "department": "Veri",
+   "commStyle": "Analitik",
+   "skills": {
+    "Python": 5,
+    "React": 2,
+    "TypeScript": 2,
+    "SQL": 2,
+    "DevOps": 3,
+    "Test": 3,
+    "UI/UX": 1,
+    "Scrum": 1,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 5
+   },
+   "experienceYears": 10,
+   "pastSuccess": 77,
+   "availability": 100
+  },
+  {
+   "id": "e040",
+   "name": "Şule Aslan",
+   "title": "Kıdemli Veri Bilimci",
+   "role": "Veri Bilimci",
+   "department": "Veri",
+   "commStyle": "Dışadönük",
+   "skills": {
+    "Python": 4,
+    "React": 1,
+    "TypeScript": 2,
+    "SQL": 3,
+    "DevOps": 2,
+    "Test": 1,
+    "UI/UX": 3,
+    "Scrum": 2,
+    "İş Analizi": 1,
+    "Makine Öğrenmesi": 4
+   },
+   "experienceYears": 11,
+   "pastSuccess": 79,
+   "availability": 80
+  }
+ ],
+ "conflictPairs": [
+  [
+   "e009",
+   "e014"
+  ],
+  [
+   "e001",
+   "e005"
+  ],
+  [
+   "e018",
+   "e022"
+  ],
+  [
+   "e010",
+   "e027"
+  ],
+  [
+   "e003",
+   "e016"
+  ],
+  [
+   "e012",
+   "e019"
+  ],
+  [
+   "e030",
+   "e011"
+  ],
+  [
+   "e006",
+   "e024"
+  ]
+ ],
+ "teams": [
+  {
+   "id": "t1",
+   "name": "Kartal",
+   "project": "Mobil Bankacılık Yenileme",
+   "memberIds": [
+    "e001",
+    "e005",
+    "e009",
+    "e010",
+    "e018",
+    "e026",
+    "e031"
+   ],
+   "requiredSkills": [
+    "Python",
+    "React",
+    "Test",
+    "Scrum"
+   ],
+   "sprints": [
+    {
+     "name": "S1",
+     "completion": 72,
+     "velocity": 28
+    },
+    {
+     "name": "S2",
+     "completion": 78,
+     "velocity": 31
+    },
+    {
+     "name": "S3",
+     "completion": 70,
+     "velocity": 29
+    },
+    {
+     "name": "S4",
+     "completion": 84,
+     "velocity": 34
+    },
+    {
+     "name": "S5",
+     "completion": 88,
+     "velocity": 36
+    }
+   ]
+  },
+  {
+   "id": "t2",
+   "name": "Atlas",
+   "project": "İK Self-Servis Portalı",
+   "memberIds": [
+    "e002",
+    "e006",
+    "e011",
+    "e019",
+    "e024",
+    "e032"
+   ],
+   "requiredSkills": [
+    "React",
+    "TypeScript",
+    "UI/UX"
+   ],
+   "sprints": [
+    {
+     "name": "S1",
+     "completion": 65,
+     "velocity": 22
+    },
+    {
+     "name": "S2",
+     "completion": 61,
+     "velocity": 21
+    },
+    {
+     "name": "S3",
+     "completion": 58,
+     "velocity": 20
+    },
+    {
+     "name": "S4",
+     "completion": 66,
+     "velocity": 23
+    },
+    {
+     "name": "S5",
+     "completion": 63,
+     "velocity": 22
+    }
+   ]
+  },
+  {
+   "id": "t3",
+   "name": "Pusula",
+   "project": "Talep Tahminleme Modeli",
+   "memberIds": [
+    "e003",
+    "e007",
+    "e012",
+    "e013",
+    "e038",
+    "e039"
+   ],
+   "requiredSkills": [
+    "Python",
+    "Makine Öğrenmesi",
+    "SQL"
+   ],
+   "sprints": [
+    {
+     "name": "S1",
+     "completion": 80,
+     "velocity": 25
+    },
+    {
+     "name": "S2",
+     "completion": 85,
+     "velocity": 27
+    },
+    {
+     "name": "S3",
+     "completion": 91,
+     "velocity": 30
+    },
+    {
+     "name": "S4",
+     "completion": 89,
+     "velocity": 30
+    },
+    {
+     "name": "S5",
+     "completion": 93,
+     "velocity": 32
+    }
+   ]
+  },
+  {
+   "id": "t4",
+   "name": "Fener",
+   "project": "E-Ticaret Ödeme Altyapısı",
+   "memberIds": [
+    "e004",
+    "e008",
+    "e014",
+    "e020",
+    "e027",
+    "e035",
+    "e036"
+   ],
+   "requiredSkills": [
+    "Python",
+    "DevOps",
+    "SQL",
+    "Test"
+   ],
+   "sprints": [
+    {
+     "name": "S1",
+     "completion": 70,
+     "velocity": 26
+    },
+    {
+     "name": "S2",
+     "completion": 74,
+     "velocity": 27
+    },
+    {
+     "name": "S3",
+     "completion": 79,
+     "velocity": 29
+    },
+    {
+     "name": "S4",
+     "completion": 76,
+     "velocity": 28
+    },
+    {
+     "name": "S5",
+     "completion": 81,
+     "velocity": 30
+    }
+   ]
+  }
+ ]
+}

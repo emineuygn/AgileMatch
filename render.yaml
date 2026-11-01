@@ -1,0 +1,30 @@
+# Render Blueprint: FastAPI servisi + PostgreSQL. Depo kökünde olmalıdır.
+services:
+  - type: web
+    name: agilematch-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    # Migration ve seed tekrar çalıştırılabilir; dolu tabloya dokunmaz.
+    startCommand: alembic upgrade head && python -m scripts.seed_data && uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.13.1
+      - key: DATABASE_URL
+        fromDatabase:
+          name: agilematch-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: CORS_ORIGINS
+        sync: false # Vercel adresi, ör. https://agilematch.vercel.app
+      - key: ADMIN_EMAIL
+        value: ik@sirket.com
+      - key: ADMIN_PASSWORD
+        sync: false
+
+databases:
+  - name: agilematch-db
+    plan: free
