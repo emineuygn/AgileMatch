@@ -46,6 +46,19 @@ class EmployeeOut(CamelModel):
     availability: int
 
 
+class EmployeeCreate(CamelModel):
+    name: str = Field(min_length=1, max_length=120)
+    email: EmailStr
+    title: str = Field(default="", max_length=120)
+    role: Role
+    department: str = Field(min_length=1, max_length=80)
+    comm_style: CommStyle
+    skills: dict[SkillName, Annotated[int, Field(ge=1, le=5)]] = Field(max_length=30)
+    experience_years: int = Field(ge=0, le=60)
+    past_success: float = Field(ge=0, le=100)
+    availability: int = Field(ge=0, le=100)
+
+
 class PairRisk(CamelModel):
     a: EmployeeOut
     b: EmployeeOut

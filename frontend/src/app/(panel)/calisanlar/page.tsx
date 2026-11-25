@@ -1,8 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Search } from "lucide-react";
-import { Avatar, Card, cn, PageHeader, ProgressBar, StyleBadge } from "@/components/ui";
+import { Plus, Search } from "lucide-react";
+import { EmployeeForm } from "@/components/employee-form";
+import { Avatar, Button, Card, cn, PageHeader, ProgressBar, StyleBadge } from "@/components/ui";
 import { getEmployees } from "@/lib/api";
 import { COMM_STYLES, ROLES } from "@/lib/mock-data";
 import type { CommStyle, Employee, Role } from "@/lib/types";
@@ -21,6 +22,7 @@ export default function EmployeesPage() {
   const [query, setQuery] = useState("");
   const [role, setRole] = useState<Role | "">("");
   const [style, setStyle] = useState<CommStyle | "">("");
+  const [formOpen, setFormOpen] = useState(false);
 
   useEffect(() => {
     getEmployees().then(setEmployees);
@@ -36,7 +38,27 @@ export default function EmployeesPage() {
 
   return (
     <>
-      <PageHeader title="Çalışanlar" description="Yetkinlik, iletişim tarzı ve geçmiş başarı verileri" />
+      <PageHeader
+        title="Çalışanlar"
+        description="Yetkinlik, iletişim tarzı ve geçmiş başarı verileri"
+        action={
+          <Button onClick={() => setFormOpen(true)}>
+            <Plus className="size-4" /> Çalışan ekle
+          </Button>
+        }
+      />
+      {formOpen && (
+        <EmployeeForm
+          onClose={() => setFormOpen(false)}
+          onCreated={(created) => {
+            setEmployees((prev) => [...prev.filter((e) => e.id !== created.id), created]);
+            setQuery("");
+            setRole("");
+            setStyle("");
+            setFormOpen(false);
+          }}
+        />
+      )}
       <Card>
         <div className="flex flex-col gap-3 border-b border-slate-100 p-4 md:flex-row">
           <div className="relative flex-1">

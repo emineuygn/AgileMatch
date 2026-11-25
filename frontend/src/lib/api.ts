@@ -46,7 +46,8 @@ async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
   }
   if (!res.ok) {
     const body = await res.json().catch(() => null);
-    const detail = typeof body?.detail === "string" ? body.detail : `Sunucu hatası (${res.status})`;
+    const fallback = res.status === 422 ? "Girilen bilgiler geçersiz." : `Sunucu hatası (${res.status})`;
+    const detail = typeof body?.detail === "string" ? body.detail : fallback;
     throw new ApiError(res.status, detail);
   }
   return res.json() as Promise<T>;
@@ -75,6 +76,17 @@ export function logout(): void {
 export async function getEmployees(): Promise<Employee[]> {
   if (isDemoMode) return mockEmployees;
   return request<Employee[]>("/employees");
+}
+
+export type NewEmployee = Omit<Employee, "id"> & { email: string };
+
+export async function createEmployee(employee: NewEmployee): Promise<Employee> {
+  if (isDemoMode) {
+    const created: Employee = { ...employee, title: employee.title || employee.role, id: `e${Date.now()}` };
+    mockEmployees.push(created);
+    return created;
+  }
+  return request<Employee>("/employees", { method: "POST", body: JSON.stringify(employee) });
 }
 
 export async function getTeams(): Promise<Team[]> {

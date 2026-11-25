@@ -119,3 +119,47 @@ def test_cors_allows_only_configured_origin(anon):
 
     assert preflight("https://agilematch.vercel.app").headers["access-control-allow-origin"] == "https://agilematch.vercel.app"
     assert "access-control-allow-origin" not in preflight("https://kotu-site.com").headers
+
+
+NEW_EMPLOYEE = {
+    "name": "Yeni Kişi",
+    "email": "Yeni.Kisi@sirket.com",
+    "role": "QA Mühendisi",
+    "department": "Kalite",
+    "commStyle": "Analitik",
+    "skills": {"Test": 5},
+    "experienceYears": 3,
+    "pastSuccess": 80,
+    "availability": 100,
+}
+
+
+def test_create_employee_appears_last_and_can_join_flows(client, db):
+    res = client.post("/employees", json=NEW_EMPLOYEE)
+    assert res.status_code == 201
+    created = res.json()
+    assert created["title"] == "QA Mühendisi"  # unvan boşsa rol kullanılır
+    assert "email" not in created
+    assert client.get("/employees").json()[-1]["id"] == created["id"]
+    assert db.get(Employee, created["id"]).email == "yeni.kisi@sirket.com"
+    # Eklenen çalışan anket ve değerlendirmede hemen kullanılabilir.
+    assert client.post("/surveys", json={**SURVEY, "email": "yeni.kisi@sirket.com"}).status_code == 201
+    evaluated = client.post("/teams/evaluate", json={"memberIds": [created["id"]], "requiredSkills": ["Test"]})
+    assert evaluated.json()["skillCoverage"] == [{"skill": "Test", "level": 5}]
+
+
+def test_create_employee_rejects_duplicate_email(client):
+    assert client.post("/employees", json=NEW_EMPLOYEE).status_code == 201
+    assert client.post("/employees", json={**NEW_EMPLOYEE, "email": "yeni.kisi@sirket.com"}).status_code == 409
+
+
+def test_create_employee_validates_values(client):
+    assert client.post("/employees", json={**NEW_EMPLOYEE, "email": "gecersiz"}).status_code == 422
+    assert client.post("/employees", json={**NEW_EMPLOYEE, "role": "Bilinmeyen"}).status_code == 422
+    assert client.post("/employees", json={**NEW_EMPLOYEE, "skills": {"Test": 9}}).status_code == 422
+    assert client.post("/employees", json={**NEW_EMPLOYEE, "availability": 150}).status_code == 422
+
+
+def test_create_employee_requires_hr(anon, db):
+    assert anon.post("/employees", json=NEW_EMPLOYEE).status_code == 401
+    assert _employee_client(db).post("/employees", json=NEW_EMPLOYEE).status_code == 403

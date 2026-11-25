@@ -23,6 +23,7 @@ cp .env.example .env          # JWT_SECRET ve ADMIN_PASSWORD değerlerini doldur
 |---|---|---|
 | `POST /auth/login` | herkes | JWT döner |
 | `GET /employees` | İK | Çalışan listesi |
+| `POST /employees` | İK | Yeni çalışan ekler; aynı e-posta varsa 409 döner |
 | `DELETE /employees/{id}` | İK | KVKK veri silme: anket ve takım üyelikleri de silinir |
 | `GET /teams`, `POST /teams` | İK | Takım listeleme ve kaydetme |
 | `POST /teams/evaluate` | İK | Verilen üyelerin uyum skoru ve riskleri |
